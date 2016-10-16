@@ -1,0 +1,21 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "My resume site",
+  "main": "gulpfile.js",
+  "scripts": {
+    "serve": "gulp serve"
+  },
+  "keywords": [
+    "resume",
+    "naji",
+    "astier"
+  ],
+  "author": "Naji Astier",
+  "license": "WTFPL",
+  "devDependencies": {
+    "browser-sync": "^2.17.3",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  }
+}
