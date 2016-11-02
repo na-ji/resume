@@ -17,7 +17,7 @@ gulp.task('serve', ['sass'], function() {
 // Compile sass into CSS & auto-inject into browsers
 gulp.task('sass', function() {
     gulp.src(['assets/sass/main.scss', 'assets/sass/ie8.scss'])
-        .pipe(sass().on('error', sass.logError))
+        .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
         .pipe(gulp.dest('./assets/css/'))
         .pipe(browserSync.stream())
     ;
