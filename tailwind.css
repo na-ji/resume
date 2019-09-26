@@ -40,6 +40,10 @@ html {
   font-size: 13.176471px;
 }
 
+.mb-4 {
+  margin-bottom: 1.3rem !important;
+}
+
 /* For Letter size */
 
 /*@screen sm {
