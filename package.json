@@ -1,21 +1,23 @@
 {
-  "name": "resume",
-  "version": "1.0.0",
-  "description": "My resume site",
-  "main": "gulpfile.js",
+  "name": "universal-resume",
+  "version": "1.1.4",
+  "description": "Resume website template that works on a monitor, paper, and phone.",
+  "author": "WebPraktikos <hi@webpraktikos.com>",
   "scripts": {
-    "serve": "gulp serve"
+    "serve": "concurrently \"postcss ./tailwind.css -o public/styles.css --watch\"  \"live-server ./public \"",
+    "dev": "cross-env NODE_ENV=dev postcss ./tailwind.css -o public/styles.css",
+    "public": "cross-env NODE_ENV=public postcss ./tailwind.css -o public/styles.css"
   },
-  "keywords": [
-    "resume",
-    "naji",
-    "astier"
-  ],
-  "author": "Naji Astier",
-  "license": "WTFPL",
+  "dependencies": {
+    "autoprefixer": "^9.5.1",
+    "tailwindcss": "^1.0.1"
+  },
   "devDependencies": {
-    "browser-sync": "^2.17.3",
-    "gulp": "^3.9.1",
-    "gulp-sass": "^2.3.2"
+    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "concurrently": "^4.1.0",
+    "cross-env": "^5.2.0",
+    "cssnano": "^4.1.10",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^6.1.2"
   }
 }

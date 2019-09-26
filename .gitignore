@@ -1,2 +1,15 @@
+# WINDOWS specific stuff
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+# Folder config file
+Desktop.ini
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Ignore these so they're not stored in source control
+.vscode
+.idea
 node_modules
-assets/css/*
+package-lock.json
+public/styles.css
