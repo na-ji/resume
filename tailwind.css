@@ -30,6 +30,10 @@
   html {
     font-size: 12.288px !important;
   }
+
+  .mt-9 {
+    margin-top: 3.3rem !important;
+  }
 }
 
 html {
@@ -62,7 +66,7 @@ html {
   html {
     font-size: calc( 12.288px + (16 - 12.288) * (100vw - 811px) / (1051 - 811) );
   }
-} 
+}
 
 @screen lg {
   html {
