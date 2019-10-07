@@ -1,0 +1,53 @@
+{
+  "lang": "fr",
+  "title": "Naji Astier — CV",
+  "about": {
+    "title": "À PROPOS",
+    "job": "Développeur Full-stack",
+    "date": "Depuis 2017",
+    "presentation": "J'ai commencé à jouer avec les technologies du web lorsque j'étais au collège en 2009. Aujourd'hui, ma passion est devenue mon travail. Je cherche un poste où je peux apporter à l'équipe tout en continuant d'apprendre. Je crois en l'importance d'un code de qualité et d'une bonne architecture. Je suis passionné d'informatique, de jeux-vidéo et de manga."
+  },
+  "experience": {
+    "title": "EXPÉRIENCES",
+    "tph": {
+      "title": "Jan 2017 – Jun 2019 | Développeur Full-stack",
+      "point1": "Développement en continu d'une plate-forme web en agile",
+      "point2": "Travail sur des sujets avancés comme l'amélioration de la qualité du code et l'intégration en continu",
+      "point3": "Migration progressive d'un frontend legacy en Twig vers Vue.js",
+      "point4": "Formation de nouveaux développeurs en Symfony et Vue.js",
+      "point5": "Stack : PHP Symfony 3.4, PHPUnit, Vue.js, Mocha, Webpack, Sass, Docker, Jenkins"
+    },
+    "unlv": {
+      "title": "2016 – 3 Mois | Stagiaire Développeur",
+      "point1": "Développement de deux outils pour gérer le centre de recherche sur les transports dans une équipe de trois personnes",
+      "point2": "Stack : Python Django"
+    },
+    "junior": {
+      "title": "Junior ESIEE – Junior Entreprise",
+      "point1": "Développement de nouveaux outils pour gérer l'association",
+      "point2": "Gestion d'une équipe de stagiaires",
+      "point3": "Stack : Symfony 2.3"
+    }
+  },
+  "education": {
+    "title": "ÉDUCATION",
+    "esiee": "2012 – 2017 | Diplôme d'ingénieur en Système d'Information",
+    "lmr": "2009 – 2012 | Bac S mention bien"
+  },
+  "project": {
+    "title": "PROJETS",
+    "shogun": {
+      "title": "Depuis 2016 | ES6, React, Redux, Electron, Travis",
+      "description": "Un lecteur de manga pour PC. Écrit avec Electron.js. J'ai beaucoup appris sur React.js durant ce projet. Le coeur de l'application utilise une librairie que j'ai publié sur NPM: node-manga-parser"
+    },
+    "bde": {
+      "subject": "Site vitrine/outils du BDE",
+      "title": "2014 | PHP, Symfony",
+      "description": "Une collection d'outils développé pour le BDE ESIEE Paris. Écrit en PHP avec Symfony, le projet est toujours maintenu aujourd'hui par mes successeurs."
+    }
+  },
+  "skills": {
+    "title": "COMPÉTENCES",
+    "other": "Autre"
+  }
+}

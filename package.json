@@ -1,12 +1,14 @@
 {
-  "name": "universal-resume",
-  "version": "1.1.4",
-  "description": "Resume website template that works on a monitor, paper, and phone.",
-  "author": "WebPraktikos <hi@webpraktikos.com>",
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Resume based on universal-resume",
+  "author": "Naji Astier <naji@astier.eu>",
+  "private": true,
   "scripts": {
     "serve": "concurrently \"postcss ./tailwind.css -o public/styles.css --watch\"  \"live-server ./public \"",
     "dev": "cross-env NODE_ENV=dev postcss ./tailwind.css -o public/styles.css",
-    "public": "cross-env NODE_ENV=public postcss ./tailwind.css -o public/styles.css"
+    "public": "cross-env NODE_ENV=public postcss ./tailwind.css -o public/styles.css",
+    "i18n": "static-i18n -l en -i en -i fr -o public src"
   },
   "dependencies": {
     "autoprefixer": "^9.5.1",
@@ -18,6 +20,7 @@
     "cross-env": "^5.2.0",
     "cssnano": "^4.1.10",
     "live-server": "^1.2.1",
-    "postcss-cli": "^6.1.2"
+    "postcss-cli": "^6.1.2",
+    "static-i18n": "^0.2.3"
   }
 }
