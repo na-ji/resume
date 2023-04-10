@@ -9,8 +9,16 @@
   },
   "experience": {
     "title": "EXPERIENCE",
+    "algoan": {
+      "title": "Dec 2019 – now | Lead Frontend Engineer",
+      "point1": "Managed and trained a team of experienced and debuting frontend engineers",
+      "point2": "Worked on the improvement of the code quality, the continuous integration",
+      "point3": "Was in charge of frontend devops environment",
+      "point4": "Participated in the development of a dozen applications, SDKs and design system",
+      "point5": "Stack: TypeScript, NextJS, React, Redux, Styled Components, Jest, Cypress, Percy, Docker, GitHub Actions"
+    },
     "tph": {
-      "title": "Jan 2017 – Jun 2019 | Full Stack Developer",
+      "title": "Jan 2017 – Jun 2019 | Full Stack Engineer",
       "point1": "Continuously developed a web platform in an agile environment",
       "point2": "Worked on the improvement of the code quality, the continuous integration",
       "point3": "Gradually migrated a legacy frontend from Twig to Vue.js",
@@ -36,9 +44,9 @@
   },
   "project": {
     "title": "PROJECTS",
-    "shogun": {
-      "title": "Since 2016 | ES6, React, Redux, Electron, Travis",
-      "description": "A manga reader for PC. Written with Electron. I learned a lot about React and Redux during this project. The core the app use a library I published to NPM: node-manga-parser."
+    "leaderboard": {
+      "title": "Since 2021 | TypeScript, NextJS, React, Tailwind, Go",
+      "description": "Fully automated leaderboard for the game Pokémon Go. Players can track their progression and compare with others players. The backend is closed source for legal reasons."
     },
     "bde": {
       "subject": "Student Union website/tools",
@@ -48,6 +56,7 @@
   },
   "skills": {
     "title": "SKILLS",
-    "other": "Other"
+    "other": "Other",
+    "management": "Team Management"
   }
 }

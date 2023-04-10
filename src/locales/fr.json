@@ -9,10 +9,18 @@
   },
   "experience": {
     "title": "EXPÉRIENCES",
+    "algoan": {
+      "title": "Dec 2019 – présent | Lead Frontend Engineer",
+      "point1": "Manager et mentorer une équipe d'ingénieurs frontend hétérogène",
+      "point2": "Travaillé sur la qualité du code",
+      "point3": "Responsable de l'environnement devops frontend",
+      "point4": "Participé au développement d'une douzaine d'applications, SDKs et design system",
+      "point5": "Stack : TypeScript, NextJS, React, Redux, Styled Components, Jest, Cypress, Percy, Docker, GitHub Actions"
+    },
     "tph": {
       "title": "Jan 2017 – Jun 2019 | Développeur Full-stack",
       "point1": "Développement en continu d'une plate-forme web en agile",
-      "point2": "Travail sur des sujets avancés comme l'amélioration de la qualité du code et l'intégration en continu",
+      "point2": "Travail sur des sujets avancés comme l'amélioration de la qualité du code et l'intégration en continue",
       "point3": "Migration progressive d'un frontend legacy en Twig vers Vue.js",
       "point4": "Formation de nouveaux développeurs en Symfony et Vue.js",
       "point5": "Stack : PHP Symfony 3.4, PHPUnit, Vue.js, Mocha, Webpack, Sass, Docker, Jenkins"
@@ -36,9 +44,9 @@
   },
   "project": {
     "title": "PROJETS",
-    "shogun": {
-      "title": "Depuis 2016 | ES6, React, Redux, Electron, Travis",
-      "description": "Un lecteur de manga pour PC. Écrit avec Electron.js. J'ai beaucoup appris sur React.js durant ce projet. Le coeur de l'application utilise une librairie que j'ai publié sur NPM: node-manga-parser"
+    "leaderboard": {
+      "title": "Depuis 2021 | TypeScript, NextJS, React, Tailwind, Go",
+      "description": "Classement de joueurs du jeu Pokémon Go 100% automatisé. Les joueurs peuvent suivre leur progression et se comparer entre eux. Le backend est privé pour des raisons légales."
     },
     "bde": {
       "subject": "Site vitrine/outils du BDE",
@@ -48,6 +56,7 @@
   },
   "skills": {
     "title": "COMPÉTENCES",
-    "other": "Autre"
+    "other": "Autre",
+    "management": "Management d'équipe"
   }
 }
