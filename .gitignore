@@ -12,4 +12,3 @@ $RECYCLE.BIN/
 .idea
 node_modules
 package-lock.json
-public/styles.css

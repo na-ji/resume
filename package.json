@@ -5,10 +5,20 @@
   "author": "Naji Astier <naji@astier.eu>",
   "private": true,
   "scripts": {
-    "serve": "concurrently \"postcss ./tailwind.css -o public/styles.css --watch\"  \"live-server ./public \"",
-    "dev": "cross-env NODE_ENV=dev postcss ./tailwind.css -o public/styles.css",
-    "public": "cross-env NODE_ENV=public postcss ./tailwind.css -o public/styles.css",
-    "i18n": "static-i18n -l en -i en -i fr -o public src"
+    "serve": "concurrently \"postcss ./tailwind.css -o docs/styles.css --watch\"  \"live-server ./docs \"",
+    "dev": "cross-env NODE_ENV=dev postcss ./tailwind.css -o docs/styles.css",
+    "build": "cross-env NODE_ENV=build postcss ./tailwind.css -o docs/styles.css && npm run i18n",
+    "i18n": "static-i18n -l en -i en -i fr -o docs src",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "i18n": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "html,json",
+      "quiet": false
+    }
   },
   "dependencies": {
     "autoprefixer": "^9.5.1",
@@ -20,6 +30,7 @@
     "cross-env": "^7.0.3",
     "cssnano": "^4.1.10",
     "live-server": "^1.2.2",
+    "npm-watch": "^0.11.0",
     "postcss-cli": "^6.1.2",
     "static-i18n": "^0.2.10"
   }
