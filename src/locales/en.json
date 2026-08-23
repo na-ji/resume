@@ -3,14 +3,22 @@
   "title": "Naji Astier — Resume",
   "about": {
     "title": "ABOUT ME",
-    "job": "Full-stack Developer",
+    "job": "Full-stack Engineer",
     "date": "Since 2017",
     "presentation": "Started playing with web technologies as a hobby since middle school in 2009. Now, my hobby became my full-time job. I am looking for a job where I can benefit the team while still learning. I believe in the importance of code quality and good architecture. I am passionate about computer science, and I am a huge fan of mangas and video games."
   },
   "experience": {
     "title": "EXPERIENCE",
+    "datadog": {
+      "title": "Sept 2024 – now | Full Stack Engineer",
+      "point1": "Worked on the Database Monitoring (DBM) team, learned different database internals",
+      "point2": "Drove customer subscriptions by building a public demo of DBM capabilities as a side project",
+      "point3": "Led multiple major projects in the product, all customer-focused, informed by interviewing design partners",
+      "point4": "Contributed to open-source code that is run on customer infrastructure and requires minimal footprint",
+      "point5": "Stack: Go, Java, TypeScript, React, Python, Kubernetes"
+    },
     "algoan": {
-      "title": "Dec 2019 – now | Lead Frontend Engineer",
+      "title": "Dec 2019 – Aug 2024 | Lead Frontend Engineer",
       "point1": "Managed and trained a team of experienced and debuting frontend engineers",
       "point2": "Worked on the improvement of the code quality, the continuous integration",
       "point3": "Was in charge of frontend devops environment",
@@ -21,14 +29,11 @@
       "title": "Jan 2017 – Jun 2019 | Full Stack Engineer",
       "point1": "Continuously developed a web platform in an agile environment",
       "point2": "Worked on the improvement of the code quality, the continuous integration",
-      "point3": "Gradually migrated a legacy frontend from Twig to Vue.js",
-      "point4": "Trained new developers on Symfony and Vue.js",
-      "point5": "Stack: PHP Symfony 3.4, PHPUnit, Vue.js, Mocha, Webpack, Sass, Docker, Jenkins"
+      "point3": "Gradually migrated a legacy frontend from Twig to Vue.js"
     },
     "unlv": {
       "title": "2016 – 3 Months | Developer Intern",
-      "point1": "Developed from scratch two tools to manage the transportation research center in a team of three",
-      "point2": "Stack: Python Django"
+      "point1": "Developed from scratch two tools to manage the transportation research center in a team of three"
     },
     "junior": {
       "title": "Junior ESIEE – A Junior Enterprise",

@@ -3,14 +3,22 @@
   "title": "Naji Astier — CV",
   "about": {
     "title": "À PROPOS",
-    "job": "Développeur Full-stack",
+    "job": "Ingénieur Full-stack",
     "date": "Depuis 2017",
     "presentation": "J'ai commencé à jouer avec les technologies du web lorsque j'étais au collège en 2009. Aujourd'hui, ma passion est devenue mon travail. Je cherche un poste où je peux apporter à l'équipe tout en continuant d'apprendre. Je crois en l'importance d'un code de qualité et d'une bonne architecture. Je suis passionné d'informatique, de jeux-vidéo et de manga."
   },
   "experience": {
     "title": "EXPÉRIENCES",
+    "datadog": {
+      "title": "Sept 2024 – présent | Full Stack Engineer",
+      "point1": "Travailler dans l'équipe Database Monitoring (DBM), apprendre les mécanismes internes de différentes bases de données",
+      "point2": "Stimuler les souscriptions clients en créant une démo publique des capacités de DBM en tant que side project",
+      "point3": "Diriger plusieurs projets majeurs dans le produit, tous orientés client, en menant des entretiens avec les design partners",
+      "point4": "Contribuer à du code open-source exécuté sur l'infrastructure client avec une empreinte minimale",
+      "point5": "Stack : Go, Java, TypeScript, React, Python, Kubernetes"
+    },
     "algoan": {
-      "title": "Dec 2019 – présent | Lead Frontend Engineer",
+      "title": "Dec 2019 – Aug 2024 | Lead Frontend Engineer",
       "point1": "Manager et mentorer une équipe d'ingénieurs frontend hétérogène",
       "point2": "Travaillé sur la qualité du code",
       "point3": "Responsable de l'environnement devops frontend",
@@ -19,16 +27,13 @@
     },
     "tph": {
       "title": "Jan 2017 – Jun 2019 | Développeur Full-stack",
-      "point1": "Développement en continu d'une plate-forme web en agile",
+      "point1": "Développement en continu d'une plate-forme web",
       "point2": "Travail sur des sujets avancés comme l'amélioration de la qualité du code et l'intégration en continue",
-      "point3": "Migration progressive d'un frontend legacy en Twig vers Vue.js",
-      "point4": "Formation de nouveaux développeurs en Symfony et Vue.js",
-      "point5": "Stack : PHP Symfony 3.4, PHPUnit, Vue.js, Mocha, Webpack, Sass, Docker, Jenkins"
+      "point3": "Migration progressive d'un frontend legacy en Twig vers Vue.js"
     },
     "unlv": {
       "title": "2016 – 3 Mois | Stagiaire Développeur",
-      "point1": "Développement de deux outils pour gérer le centre de recherche sur les transports dans une équipe de trois personnes",
-      "point2": "Stack : Python Django"
+      "point1": "Développement de deux outils pour gérer le centre de recherche sur les transports"
     },
     "junior": {
       "title": "Junior ESIEE – Junior Entreprise",
